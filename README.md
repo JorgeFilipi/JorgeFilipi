@@ -14,5 +14,5 @@ Os repositórios que você encontrará aqui são o resultado de muito estudo, pr
 - Frameworks Python para desenvolvimento web
 
 ## 📫 Contato:
-- [LinkedIn](https://www.linkedin.com) _(https://www.linkedin.com/in/jorge-dias-66117629b/)_
-- Email: seuemail@dominio.com
+- **E-mail:** [jorgefelipe1986@gmail.com](mailto:jorgefelipe1986@gmail.com)
+- **LinkedIn:** [Jorge Dias](https://www.linkedin.com/in/jorge-dias-66117629b/)
