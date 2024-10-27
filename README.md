@@ -15,8 +15,8 @@ Os repositórios que você encontrará aqui são o resultado de muito estudo, pr
 ##
 <div align="center" style="display: inline_block">
   <a href="https://github.com/jorgefilipi">
-  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=jorgefilipi&show_icons=true&theme=yeblu&include_all_commits=true&count_private=true"/>
-  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jorgefilipi&layout=compact&langs_count=7&theme=yeblu"/>
+  <img height="200em" src="https://github-readme-stats.vercel.app/api?username=jorgefilipi&show_icons=true&theme=yeblu&include_all_commits=true&count_private=true"/>
+  <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jorgefilipi&layout=compact&langs_count=7&theme=yeblu"/>
 </div>
 
 ## 📫 Contato:
