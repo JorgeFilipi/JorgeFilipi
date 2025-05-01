@@ -5,6 +5,7 @@ Os repositórios que você encontrará aqui são o resultado de muito estudo, pr
 
 ## 🚀 Habilidades:
 - Python
+- Java
 - Desenvolvimento Back-end
 
 ## 🌱 Em aprendizado:
