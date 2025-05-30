@@ -14,15 +14,10 @@ Os repositórios que você encontrará aqui são o resultado de muito estudo, pr
 - Frameworks Python para desenvolvimento web
 
 ##
-<!-- <div align="center" style="display: inline_block">
-  <a href="https://github.com/jorgefilipi">
-  <img height="200em" src="https://github-readme-stats.vercel.app/api?username=jorgefilipi&show_icons=true&theme=yeblu&include_all_commits=true&count_private=true"/>
-  <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jorgefilipi&layout=compact&langs_count=7&theme=yeblu"/>
-</div> -->
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=jorgefilipi&show_icons=true&locale=en&layout=compact" alt="jorgefilipi" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=jorgefilipi&show_icons=true&locale=en" alt="jorgefilipi" /></p>
+<div align="center" >  
+  <img width="100%" height="auto" src="https://github-readme-stats.vercel.app/api?username=jorgefilipi&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&locale=pt-br"/>
+  <img width="100%" height="auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jorgefilipi&layout=normal&langs_count=7&theme=dracula&locale=pt-br"/>
+</div>
 
 
 ## 📫 Contato:
