@@ -16,7 +16,7 @@ Os repositórios que você encontrará aqui são o resultado de muito estudo, pr
 ##
 <div align="center" >  
   <img width="100%" height="auto" src="https://github-readme-stats.vercel.app/api?username=jorgefilipi&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&locale=pt-br"/>
-  <img width="100%" height="auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jorgefilipi&layout=normal&langs_count=7&theme=dracula&locale=pt-br"/>
+  <img width="100%" height="auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jorgefilipi&layout=compact&langs_count=4&theme=dracula&locale=pt-br"/>
 </div>
 
 
