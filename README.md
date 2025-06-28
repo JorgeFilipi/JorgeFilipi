@@ -20,7 +20,7 @@
 
 ### 💡 Meus Projetos
 
-*(Atualmente estou focado em aprofundar meus estudos e construir meus primeiros projetos de back-end. Em breve, esta seção será preenchida com exemplos práticos do meu trabalho!)*
+[*(Atualmente estou focado em aprofundar meus estudos e construir meus primeiros projetos de back-end. Em breve, esta seção será preenchida com exemplos práticos do meu trabalho!)*](https://github.com/JorgeFilipi/SpringBootAPIRestVall.med/tree/main?tab=readme-ov-file#sobre-o-projeto)
 
 ---
 
