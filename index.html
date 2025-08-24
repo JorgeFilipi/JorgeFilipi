@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorge Filipi - Dashboard GitHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="profile-section">
+                    <img src="https://avatars.githubusercontent.com/u/JorgeFilipi" alt="Jorge Filipi" class="profile-avatar" id="profile-avatar">
+                    <div class="profile-info">
+                        <h1 class="profile-name" id="profile-name">Jorge Filipi</h1>
+                        <p class="profile-bio" id="profile-bio">Desenvolvedor Junior Back-end</p>
+                        <div class="profile-stats">
+                            <span class="stat">
+                                <i class="fas fa-users"></i>
+                                <span id="followers-count">0</span> seguidores
+                            </span>
+                            <span class="stat">
+                                <i class="fas fa-user-plus"></i>
+                                <span id="following-count">0</span> seguindo
+                            </span>
+                            <span class="stat">
+                                <i class="fas fa-repo"></i>
+                                <span id="repos-count">0</span> repositórios
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/jfdias" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://discord.gg/jorgefelipe1986" target="_blank" class="social-link">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                    <a href="mailto:jorgefelipe1986@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Stats Cards -->
+        <section class="stats-section">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 id="total-repos">0</h3>
+                        <p>Repositórios</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 id="total-stars">0</h3>
+                        <p>Estrelas</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 id="total-forks">0</h3>
+                        <p>Forks</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 id="total-views">0</h3>
+                        <p>Visualizações</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filters -->
+        <section class="filters-section">
+            <div class="filters">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="search-input" placeholder="Buscar repositórios...">
+                </div>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="python">Python</button>
+                    <button class="filter-btn" data-filter="java">Java</button>
+                    <button class="filter-btn" data-filter="javascript">JavaScript</button>
+                    <button class="filter-btn" data-filter="html">HTML</button>
+                    <button class="filter-btn" data-filter="css">CSS</button>
+                </div>
+                <div class="sort-options">
+                    <select id="sort-select">
+                        <option value="updated">Mais Recentes</option>
+                        <option value="stars">Mais Estrelas</option>
+                        <option value="forks">Mais Forks</option>
+                        <option value="name">Nome A-Z</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+        <!-- Repositories Grid -->
+        <section class="repos-section">
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Carregando repositórios...</p>
+            </div>
+            <div class="repos-grid" id="repos-grid">
+                <!-- Repositories will be loaded here -->
+            </div>
+            <div class="no-repos" id="no-repos" style="display: none;">
+                <i class="fas fa-search"></i>
+                <h3>Nenhum repositório encontrado</h3>
+                <p>Tente ajustar os filtros ou a busca</p>
+            </div>
+        </section>
+
+        <!-- Languages Chart -->
+        <section class="languages-section">
+            <h2>Linguagens Mais Usadas</h2>
+            <div class="languages-chart" id="languages-chart">
+                <!-- Languages chart will be generated here -->
+            </div>
+        </section>
+    </div>
+
+    <!-- Repository Modal -->
+    <div class="modal" id="repo-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body" id="modal-body">
+                <!-- Modal content will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
